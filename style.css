@@ -4,3 +4,79 @@
     box-sizing: border-box;
     outline: 1px solid blue;
 }
+
+body {
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(80,80,80);
+    padding: 3rem ;
+    min-width: 800px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1500px;
+}
+
+.photo-block {
+    flex:none;
+}
+
+.introduction-block {
+    flex:auto;
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttons-block {
+    flex: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.headshot {
+    width: 85px;
+    border-radius: 50%;
+    border: 2px solid rgb(255,255,255);
+}
+
+h1{
+    padding-bottom: 0.1rem;
+}
+
+.button-front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: rgb(112,173,71);
+}
+
+#linkedin-icon {
+    width: 50%;
+}
+
+#email-icon {
+    width: 70%;
+}
+
+.gallery {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width:200px;
+}
