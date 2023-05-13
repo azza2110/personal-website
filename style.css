@@ -13,14 +13,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(80,80,80);
     padding: 3rem ;
-    min-width: 800px;
+    max-width: 1500px;
+    margin:auto;
 }
 
 .header {
     display: flex;
     flex-direction: row;
     width: 100%;
-    max-width: 1500px;
 }
 
 .photo-block {
@@ -80,7 +80,6 @@ h1{
     justify-items: center;
     gap: 3rem;
     align-items: end;
-    max-width: 1500px;
 }
 
 .tile {
@@ -174,5 +173,8 @@ a {
 
 .tile {
     transition: 100ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@media only screen and (min-width: 768px) {
 }
 
